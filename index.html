@@ -21,9 +21,9 @@
 <!-- ==============================
     Header
 ============================== -->
-<header>
+<header class="mb-5">
     <!-- =========== Navigation =========== -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent mb-4 py-3">
         <div class="container">
           <button class="text-end navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -51,10 +51,80 @@
       </nav>
 
       <!-- =========== Banner =========== -->
-      <section class="container">
-          
+      <section class="container py-5">
+        <div class="row d-flex align-items-center gy-5">
+            <div class="col-lg-6 col-12">
+                <div class="banner_details">
+                    <p class="para_color">Computer-controlled digital transistorized with electronic advance</p>
+                    <h1 class="text-white fw-bold mb-4">Honda CBR 300R</h1>
+                    <p class="para_color">Honda CBR 150R 2021 Indonesia can be considered as the most hyped sports bike of 2021. The bike’s announcement took the biking community by storm. People had been waiting anxiously for the bike. As soon as the news came out that the bike has reached Bangladeshi soil, people went bonkers.</p>
+
+                    <!-- Button modal -->
+                    <button type="button" class="btn orange_bg text-white px-5 py-2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Purchase
+                    </button>
+  
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p class="text-danger">Hot Offer have a look!!!</p>
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-12">
+                <div class="banner_img">
+                    <img class="w-100" src="images/header-bike.png" alt="">
+                </div>
+            </div>
+        </div>
       </section>
 </header>
+
+
+
+<!-- ==============================
+    Main
+============================== -->
+<main>
+    <!-- =========== Featured =========== -->
+    <section class="container mb-5">
+        <div class="featured_title text-center mb-5">
+            <h1 class="fw-bold">Fetured Bikes 2021</h1>
+            <h6 class="orange_color">Best bike collection</h6>
+            <hr class="my-0 mx-auto">
+        </div>
+        <div class="row mt-5 gy-5">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="featured_honda text-center">
+                    <img class="img_grayscale" src="images/feature-bike-1.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="featured_honda text-center">
+                    <img src="images/feature-bike-1.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="featured_honda text-center">
+                    <img class="img_grayscale" src="images/feature-bike-1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
 
 
 

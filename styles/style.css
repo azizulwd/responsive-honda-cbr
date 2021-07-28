@@ -1,7 +1,44 @@
+/* ====================
+Common-Css
+==================== */
+.orange_bg{
+    background: #e76f51 !important;
+}
+.orange_color{
+    color: #e76f51 !important;
+}
+.para_color{
+    color: #E0E0E0 !important;
+}
+.img_grayscale{
+    filter: grayscale(100%);
+}
+
+
+
+
+/* ====================
+Custom-Css
+==================== */
 header{
     background: #264653;
 }
 #activeLogin {
     padding: 7px 24px;
     background: #e76f51;
+}
+h1{
+    font-size: 48px;
+}
+.featured_title h1{
+    color: #000;
+}
+.featured_title hr{
+    width: 58px;
+    border-bottom: 2px solid #e76f51;
+    opacity: 1;
+}
+.featured_honda img{
+    width: 288px;
+    height: 243px;
 }
