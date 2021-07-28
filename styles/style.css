@@ -65,3 +65,21 @@ h1{
     background: #e76f51;
     color: #fff !important;
 }
+.testimonial_title h1{
+    color: #18191F;
+}
+.testimonial {
+    border: 1px solid lightgray;
+    padding: 40px 35px;
+}
+.testimonial img{
+    width: 149px;
+    height: 149px;
+}
+.testimonial p{
+    color: #6C6C6C;
+}
+.testimonial span img{
+    width: 22px;
+    height: 22px;
+}
