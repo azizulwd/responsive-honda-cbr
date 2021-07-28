@@ -10,8 +10,14 @@ Common-Css
 .para_color{
     color: #E0E0E0 !important;
 }
+.bl_color{
+    color: #000 !important;
+}
 .img_grayscale{
     filter: grayscale(100%);
+}
+.section_margin{
+    margin-bottom: 130px;
 }
 
 
@@ -30,9 +36,6 @@ header{
 h1{
     font-size: 48px;
 }
-.featured_title h1{
-    color: #000;
-}
 .featured_title hr{
     width: 58px;
     border-bottom: 2px solid #e76f51;
@@ -41,4 +44,24 @@ h1{
 .featured_honda img{
     width: 288px;
     height: 243px;
+}
+.latest_news{
+    box-shadow: 0 0 5px lightgray;
+}
+.latest_news .latest_news_details h4{
+    color: #18191F;
+}
+.latest_news .latest_news_details p{
+    color: #6C6C6C;
+}
+.latest_news .latest_news_details a {
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border: 1px solid #e76f51;
+    transition: 0.4s;
+}
+.latest_news .latest_news_details a:hover{
+    background: #e76f51;
+    color: #fff !important;
 }
