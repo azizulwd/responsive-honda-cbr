@@ -151,3 +151,12 @@ footer{
     border-radius: 5px;
     cursor: pointer;
 }
+
+
+/* ============= Media Query ============= */
+
+@media only screen and (max-width: 688px){
+    form .input{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
