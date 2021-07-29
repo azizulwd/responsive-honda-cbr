@@ -89,3 +89,65 @@ h1{
 .faq_img img{
     width: 80%;
 }
+.get_in_touch_title h1{
+    color: #18191F;
+}
+.contact_img img{
+    width: 80%;
+}
+form .input{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+    margin-bottom: 15px;
+}
+form .input input {
+    width: 100%;
+    outline: none;
+    border: 1px solid lightgray;
+    font-size: 16px;
+    padding: 15px 17px;
+    border-radius: 5px;
+}
+form .input input:focus{
+    border: 1px solid #264653;
+    background: #2646530e;
+}
+form textarea{
+    width: 100%;
+    padding: 15px 17px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    height: 120px;
+    margin-bottom: 25px;
+}
+form textarea:focus{
+    border: 1px solid #264653;
+    background: #2646530e;
+}
+form button{
+    padding: 12px 40px;
+    border: 1px solid #e76f51;
+    color: #e76f51;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.4s;
+    background: none;
+}
+form button:hover{
+    background: #e76f51;
+    color: #fff;
+}
+footer{
+    background: #0b0d17;
+    padding: 60px 0;
+}
+.getApp img{
+    width: 135px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
